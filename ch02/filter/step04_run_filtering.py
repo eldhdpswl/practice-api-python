@@ -11,6 +11,7 @@ def get_news(keywords, client_id, client_secret):
     - 네이버 검색 뉴스 API 사용해 특정 키워드들의 뉴스 검색
     - 수집 데이터를 기반으로 Naver News 페이지 존재 여부를 
     뉴스 item 항목에 추가
+
     :params list keywords: 키워드 리스트
     :params str client_id: 인증정보
     :params str client_secret: 인증정보
